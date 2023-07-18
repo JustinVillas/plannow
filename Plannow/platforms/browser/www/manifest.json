@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Plannow",
+  "short_name": "Plannow",
+  "version": "com.plannow.project",
+  "description": "Sample Apache Cordova App",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "start_url": "index.html"
+}
