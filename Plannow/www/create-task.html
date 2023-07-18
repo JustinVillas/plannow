@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" href="./css/create-task.css">
+    <title>New Task</title>
+</head>
+
+<body>
+    
+
+    <div class="CreatingTasks" style="width: 100%; height: 100%;  background: #D9D9D9">
+            <div class="Rectangle15" style="width: 100%; height: 244px; left: 0px; top: 0px; position: relative; background: white; border-radius: 0 0 25px 25px;"></div>
+            <div class="Vector" style="width: 18px; height: 30px; left: 24px; top: 44px; position: absolute">
+
+                <a href="index.html"><img src="./img/icon_chevron big_left_arrow.svg" alt="back"/ ></a>
+            </div>
+
+            <form action="">
+
+            <div class="CreateNewTask" style="width: 261px; height: 29px; left: 28px; top: 79px; position: absolute; color: black; font-size: 25px; font-family: Inter; font-weight: 700; word-wrap: break-word">Create new  task</div>
+            <div style="width: 299px; height: 48px; left: 24px; top: 169px; position: absolute">
+                <label for="startDate" class="Date" style="width: 75.82px; height: 23px; left: 4.27px; top: -0px; position: absolute; color: black; font-size: 18px; font-family: Inter; font-weight: 400; word-wrap: break-word"></label>
+                <input type="date" name="startDate" value="" class="Date" style="width: 183.67px; height: 18px; left: 4.27px; top: 23px; position: absolute; color: black; font-size: 14px; font-family: Inter; font-weight: 600; word-wrap: break-word; border: none">Add date</input>
+                <div class="Line5" style="width: 299px; height: 0px; left: 0px; top: 48px; position: absolute; border: 0.50px black solid"></div>
+            </div>
+            <div class="Line6" style="width: 140.41px; height: 1.45px; left: 24px; top: 325px; position: absolute; transform: rotate(-0.60deg); transform-origin: 0 0; border: 0.50px black solid"></div>
+            <div class="Line7" style="width: 140.41px; height: 1.45px; left: 194px; top: 324.46px; position: absolute; transform: rotate(-0.60deg); transform-origin: 0 0; border: 0.50px black solid"></div>
+            <label for="startTime" class="StartTime" style="width: 103px; height: 23px; left: 28px; top: 268px; position: absolute; color: black; font-size: 18px; font-family: Inter; font-weight: 400; word-wrap: break-word">Start time</label>
+            <label for="endTime" class="EndTime" style="width: 103px; height: 23px; left: 194px; top: 268px; position: absolute; color: black; font-size: 18px; font-family: Inter; font-weight: 400; word-wrap: break-word">End time</label>
+            <div class="Title" style="width: 280px; height: 48px; left: 24px; top: 113px; position: absolute">
+                <label class="Title" style="width: 71px; height: 23px; left: 4px; top: 0px; position: absolute; color: black; font-size: 18px; font-family: Inter; font-weight: 400; word-wrap: break-word">Title</label>
+                <input type="text" name="title" value="Add Title" class="AddTitle" style="width: 172px; height: 18px; left: 4px; top: 23px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 600; word-wrap: break-word; border: none">
+                <div class="Line5" style="width: 280px; height: 0px; left: 0px; top: 48px; position: absolute; border: 0.50px black solid"></div>
+            </div>
+
+            <div class="Deadline" style="width: 299px; height: 48px; left: 24px; top: 351px; position: absolute">
+                <div class="Date" style="width: 299px; height: 48px; left: 0px; top: 0px; position: absolute">
+                    <label for="deadline" class="Deadline" style="width: 75.82px; height: 23px; left: 4.27px; top: 0px; position: absolute; color: black; font-size: 18px; font-family: Inter; font-weight: 400; word-wrap: break-word; border: none; background: none; ">Deadline</label>
+                    <input type="date" name="deadline" value="" class="AddDate" style="width: 183.67px; height: 14px; left: 4.27px; top: 23px; position: absolute; color: black; font-size: 14px; font-family: Inter; font-weight: 600; word-wrap: break-word; border: none; background: none;">
+                    <div class="Line5" style="width: 299px; height: 0px; left: 0px; top: 48px; position: absolute; border: 0.50px black solid"></div>
+                </div>
+                
+            </div>
+            <div class="Date" style="width: 299px; height: 111px; left: 24px; top: 431px; position: absolute">
+                <label for="description" class="Description" style="width: 99px; height: 53.19px; left: 4px; top: 0px; position: absolute; color: black; font-size: 18px; font-family: Inter; font-weight: 400; word-wrap: break-word" >Description</label>
+                <textarea name="description" class="AddDescription" style="width: 183.67px; height: 41.62px; left: 4.27px; top: 53.19px; position: absolute; color: black; font-size: 14px; font-family: Inter; font-weight: normal; word-wrap: break-word; border: none; background-color: none; border: none; background: none; overflow: auto;" cols="50"> Add Description
+                </textarea>
+                
+                <div class="Line5" style="width: 299px; height: 0px; left: 0px; top: 111px; position: absolute; border: 0.50px black solid"></div>
+            </div>
+            
+            <input type="time" name="startTime" value="00:00" class="StartTime" style="width: 110px; height: 18px; left: 28px; top: 300px; position: absolute; border: none; background: none;" ></input>
+            <input type="time" name="endTime" value="00:00" class="EndTime" style="width: 110px; height: 18px; left: 200px; top: 300px; position: absolute; border: none; background: none;"></input>
+
+            </form> <!-- end form -->
+
+            <nav class="AppbarAndroidBottomFabRightRoboto sticky" style="width: 100%; height: 80px; left: 0; bottom: 0; top: 90%; background: white; ">
+                <div class="BorderTop" style="width: 360px; height: 1px; left: 0px; top: 0px; position: absolute; background: #020202"></div>
+                <div class="Contents" style="width: 360px; padding-top: 16px; padding-bottom: 16px; padding-left: 16px; padding-right: 224px; left: 0px; top: 1px; position: absolute; justify-content: flex-start; align-items: center; display: inline-flex">
+                    <div class="IconList" style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+                        <div class="IconAndroid24NavMenu" style="width: 24px; height: 24px; position: relative">
+                            <img class="Color" style="width: 20px; height: 20px; left: 3px; top: 3px; position: absolute" src="img/nav_menu.png" alt="menu" />
+                        </div>
+                        <div class="IconAndroid24ShareSocial" style="width: 24px; height: 24px; position: relative">
+                            <img src="img/share_social.png" class="Color" style="width: 18px; height: 19.92px; left: 3px; top: 2px; position: absolute;"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="ButtonAndroidFab" style="width: 56px; height: 56px; padding: 16px; left: 258px; top: -48px; position: absolute; background: #F5F5F5; box-shadow: 0px 2px 0px black; border-radius: 250px; border: 0.50px #020202 solid; justify-content: center; align-items: center; display: inline-flex">
+                    <img src="./img/chevron_right_md.svg" alt="next" class="IosIcon24ChevronRightMd" style="width: 24px; height: 24px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+
+</html>
